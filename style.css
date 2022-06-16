@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+.grid{
+    background-color: black;
+    border: 3px solid white;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.grid div{
+    color: black;
+    width: 115px;
+    height: 115px;
+    background-color: lightskyblue;
+    opacity: 0.8;
+    border: 4px solid black;
+    padding-right: 1px;
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.grid div:hover{
+    cursor: pointer;
+    background-color: lightskyblue;
+}
+
+
+#score{
+    color: wheat;
+    font-size: 50px;
+}
+.score-title{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
