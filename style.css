@@ -30,7 +30,19 @@ body{
     cursor: pointer;
     background-color: lightskyblue;
 }
-
+.score-container{
+    text-align: center;
+    color: lightskyblue;
+    font-size: 40px;
+    padding-top: 30px;
+}
+#result{
+    padding-top: 60px;
+    color: pink;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
 
 #score{
     color: wheat;
